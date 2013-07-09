@@ -28,5 +28,27 @@ html{
 	font-family: 'Alex Brush', cursive;
 	text-align: center;
 	font-size: 40px;
-
+}
+.info{
+	border: 2px solid #5bbf21;
+	margin: 10px;
+	padding: 20px;
+}
+.right1{
+	float:left;
+}
+.photo{
+	height: 150px;
+	width: 100px;
+}
+.left1{
+	float: left;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
