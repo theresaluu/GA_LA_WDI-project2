@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--Purpose: This is the log in screen for our upcoming project.  Although we don't know 
+	our project is going to be yet, we know there must be a login screen-->
+
+<html lang="en">
+	<head>	
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div class= 'row-fluid'>
+			<div class='span6 instructions'>
+				To sign up: 1)enter in email 2)leave password blank 3)click 'sign in'
+				<br>To log on: 1)enter email 2)enter password 3)click 'sign in'
+			</div><!--end of first 'span6' w/in 'span12'-->
+			<form class= 'form-horizontal'>
+				<div class='span6 user'>
+					<div class='control-group'>
+						<label class='control-label' for='inputEmail'> Email </label>
+						<div class= 'controls'>
+							<input type= 'text' id='inputEmail' placeholder='Email'>
+						</div><!--end of 'controls'-->
+					</div><!--end of 'control-group'-->
+					<div class='control-group'>
+						<label class= 'control-label' for='inputPassword'> Password </label>
+						<div class= 'controls'>
+							<input type= 'password' id='inputPassword' placeholder='Password'>
+						</div><!--end of 'controls'-->
+					</div><!--end of 'control-group'-->
+					<div class= 'control-group'>
+						<div class= 'controls'>
+							<button type= 'submit' class= 'btn'> Sign in</button>
+						</div><!--end of 'controls'-->
+					</div><!--end of 'control-group'-->
+				</div><!--end of 'span6 user'-->
+			</form><!--end of 'form-horizontal'-->
+		</div><!--end of 'row'-->
+	</body>
+</html>
